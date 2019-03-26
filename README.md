@@ -22,3 +22,18 @@ Phase offset (rad) = 0
 ### Block Diagram
 ![BPSK Scheme](https://github.com/HusseinYoussef/Digital-Communications-Project/blob/master/BPSK/Figures/Scheme.png)
 
+### At Transmitter Side -Modulator- (Before Noise)
+![BPSK Before Noise](https://github.com/HusseinYoussef/Digital-Communications-Project/blob/master/BPSK/Figures/Before%20Noise.png)
+
+### At Receiver Side -Demodulator- (After Noise)
+Noise = -10 db
+![BPSK Noise -10](https://github.com/HusseinYoussef/Digital-Communications-Project/blob/master/BPSK/Figures/After%20Noise%20at%20-10%20db.png)
+
+### At Receiver Side -Demodulator- (After Noise)
+Noise = 10 db
+![BPSK Before Noise](https://github.com/HusseinYoussef/Digital-Communications-Project/blob/master/BPSK/Figures/After%20Noise%20at%2010%20db.png)
+
+### BER Diagram
+![BER Diagram](https://github.com/HusseinYoussef/Digital-Communications-Project/blob/master/BPSK/Figures/BER%20Diagram.png)
+
+
