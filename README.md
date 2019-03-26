@@ -81,3 +81,49 @@ FSK is a frequency modulation scheme in which digital information is transmitted
 
 ### BER Diagram
 ![BER Diagram](https://github.com/HusseinYoussef/Digital-Communications-Project/blob/master/FSK/Figures/BER%20Diagram.png)
+___
+### QAM - Quadrature amplitude modulation:
+QAM is a signal in which two carriers shifted in phase by 90 degrees (i.e. sine and cosine) are modulated and combined. As a result of their 90° phase difference they are in quadrature and this gives rise to the name. Often one signal is called the In-phase or “I” signal, and the other is the quadrature or “Q” signal.
+
+### Parameters
+```
+- Random Integer Generator Set size = 16, 64
+- M-ary number = 16, 64
+- Normalization method = Average Power
+- Phase offset (rad) = 0
+```
+### Types
+* QAM 16
+* QAM 64
+
+1- QAM 16
+### Block Diagram
+![QAM16 Scheme](https://github.com/HusseinYoussef/Digital-Communications-Project/blob/master/QAM16/Figures/Scheme.png)
+
+### At Transmitter Side -Modulator- (Before Noise)
+![QAM16 Before Noise](https://github.com/HusseinYoussef/Digital-Communications-Project/blob/master/QAM16/Figures/Before%20Noise.png)
+
+### At Receiver Side -Demodulator- (After Noise = -10 db)
+![QAM16 Noise -10](https://github.com/HusseinYoussef/Digital-Communications-Project/blob/master/QAM16/Figures/After%20Noise%20at%20-10%20db.png)
+
+### At Receiver Side -Demodulator- (After Noise = 10 db)
+![QAM16 Before Noise](https://github.com/HusseinYoussef/Digital-Communications-Project/blob/master/QAM16/Figures/After%20Noise%20at%2010%20db.png)
+
+### BER Diagram
+![BER Diagram](https://github.com/HusseinYoussef/Digital-Communications-Project/blob/master/QAM16/Figures/BER%20Diagram.png)
+
+2- QAM 64
+### Block Diagram
+![QAM16 Scheme](https://github.com/HusseinYoussef/Digital-Communications-Project/blob/master/QAM64/Figures/Scheme.png)
+
+### At Transmitter Side -Modulator- (Before Noise)
+![QAM16 Before Noise](https://github.com/HusseinYoussef/Digital-Communications-Project/blob/master/QAM64/Figures/Before%20Noise.png)
+
+### At Receiver Side -Demodulator- (After Noise = -10 db)
+![QAM16 Noise -10](https://github.com/HusseinYoussef/Digital-Communications-Project/blob/master/QAM64/Figures/After%20Noise%20at%20-10%20db.png)
+
+### At Receiver Side -Demodulator- (After Noise = 10 db)
+![QAM16 Before Noise](https://github.com/HusseinYoussef/Digital-Communications-Project/blob/master/QAM64/Figures/After%20Noise%20at%2010%20db.png)
+
+### BER Diagram
+![BER Diagram](https://github.com/HusseinYoussef/Digital-Communications-Project/blob/master/QAM64/Figures/BER%20Diagram.png)
