@@ -96,7 +96,7 @@ QAM is a signal in which two carriers shifted in phase by 90 degrees (i.e. sine 
 * QAM 16
 * QAM 64
 
-1- QAM 16
+1. **QAM 16**
 ### Block Diagram
 ![QAM16 Scheme](https://github.com/HusseinYoussef/Digital-Communications-Project/blob/master/QAM16/Figures/Scheme.png)
 
@@ -112,7 +112,7 @@ QAM is a signal in which two carriers shifted in phase by 90 degrees (i.e. sine 
 ### BER Diagram
 ![BER Diagram](https://github.com/HusseinYoussef/Digital-Communications-Project/blob/master/QAM16/Figures/BER%20Diagram.png)
 
-2- QAM 64
+2. **QAM 64**
 ### Block Diagram
 ![QAM16 Scheme](https://github.com/HusseinYoussef/Digital-Communications-Project/blob/master/QAM64/Figures/Scheme.png)
 
