@@ -16,8 +16,8 @@ BPSK is a two phase modulation scheme, where the 0’s and 1’s in a binary mes
 
 ### Parameters
 ```
-Random Integer Generator Set size = 2
-Phase offset (rad) = 0
+- Random Integer Generator Set size = 2
+- Phase offset (rad) = 0
 ```
 ### Block Diagram
 ![BPSK Scheme](https://github.com/HusseinYoussef/Digital-Communications-Project/blob/master/BPSK/Figures/Scheme.png)
@@ -39,8 +39,8 @@ Quadrature Phase Shift Keying (QPSK) is a form of Phase Shift Keying in which tw
 
 ### Parameters
 ```
-Random Integer Generator Set size = 4
-Phase offset (rad) = pi/4
+- Random Integer Generator Set size = 4
+- Phase offset (rad) = pi/4
 ```
 ### Block Diagram
 ![QPSK Scheme](https://github.com/HusseinYoussef/Digital-Communications-Project/blob/master/QPSK/Figures/Scheme.png)
@@ -57,3 +57,27 @@ Phase offset (rad) = pi/4
 ### BER Diagram
 ![BER Diagram](https://github.com/HusseinYoussef/Digital-Communications-Project/blob/master/QPSK/Figures/BER%20Diagram.png)
 ___
+### FSK - Frequency-shift keying:
+FSK is a frequency modulation scheme in which digital information is transmitted through discrete frequency changes of a carrier signal.The technology is used for communication systems such as telemetry.
+
+### Parameters
+```
+- Random Integer Generator Set size = 8
+- M-ary number = 8
+- Frequency separation = 6
+- Samples per symbol = 17
+```
+### Block Diagram
+![FSK Scheme](https://github.com/HusseinYoussef/Digital-Communications-Project/blob/master/FSK/Figures/Scheme.png)
+
+### At Transmitter Side -Modulator- (Before Noise)
+![FSK Before Noise](https://github.com/HusseinYoussef/Digital-Communications-Project/blob/master/FSK/Figures/Before%20Noise.png)
+
+### At Receiver Side -Demodulator- (After Noise = -10 db)
+![FSK Noise -10](https://github.com/HusseinYoussef/Digital-Communications-Project/blob/master/FSK/Figures/After%20Noise%20at%20-10%20db.png)
+
+### At Receiver Side -Demodulator- (After Noise = 10 db)
+![FSK Before Noise](https://github.com/HusseinYoussef/Digital-Communications-Project/blob/master/FSK/Figures/After%20Noise%20at%2010%20db.png)
+
+### BER Diagram
+![BER Diagram](https://github.com/HusseinYoussef/Digital-Communications-Project/blob/master/FSK/Figures/BER%20Diagram.png)
